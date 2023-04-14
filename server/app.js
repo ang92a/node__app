@@ -15,7 +15,7 @@ app.use(express.json());
 //обработчик запроса
 app.post("/user", (req, res) => {
   const { name, password } = req.body;
-
+console.log(users);
   let user = users.find((user) => user.name === name);
 
   if (user) {
