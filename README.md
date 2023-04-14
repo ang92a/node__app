@@ -39,3 +39,29 @@
 
 - 3.Запускаем nodemon
   `npm run dev`
+
+## Server
+
+1. Делаем обработчик
+
+```
+app.post("/user", (req, res) => {
+
+})
+
+```
+
+2. Убираем оштбку CORS
+
+- Устанавливаем библиотеку CORS
+  `npm install cors`
+- Подключаем ее
+  ` import cors from "cors"`
+- Используем 
+```app.use(cors())```
+
+3. Делаем  bodyparser
+
+``` app.use(express.json()) ```
+
+4. Реализация логики
