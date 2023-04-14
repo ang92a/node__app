@@ -65,3 +65,17 @@ app.post("/user", (req, res) => {
 ``` app.use(express.json()) ```
 
 4. Реализация логики
+
+## Git
+
+-Создание новой ветки 
+
+```git branch <name>```
+
+-Посмотреть все ветки 
+
+```git branch ```
+
+- Перейти в другую ветку
+
+```git checkout <name>```
